@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1D908F45-6380-4139-980F-ED76290A4D1E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProfessionalTDDWithCSharp</RootNamespace>
+    <AssemblyName>ProfessionalTDDWithCSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ninject">
+      <HintPath>..\packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ExtractMethods\Customer.cs" />
+    <Compile Include="ExtractMethods\CustomerAddress.cs" />
+    <Compile Include="ExtractMethods\CustomerService.cs" />
+    <Compile Include="ExtractMethods\Invoice.cs" />
+    <Compile Include="ExtractMethods\InvoiceService.cs" />
+    <Compile Include="ExtractMethods\PaymentProcessService.cs" />
+    <Compile Include="ExtractMethods\PlaceOrder.cs" />
+    <Compile Include="Ninject\BussinessService.cs" />
+    <Compile Include="Ninject\CoreModule.cs" />
+    <Compile Include="Ninject\DataAccessComponent.cs" />
+    <Compile Include="Ninject\Interfaces\IDataAccessComponent.cs" />
+    <Compile Include="Ninject\Interfaces\ILoggingComponent.cs" />
+    <Compile Include="Ninject\Interfaces\ILoggingDataSink.cs" />
+    <Compile Include="Ninject\Interfaces\IPersonRepository.cs" />
+    <Compile Include="Ninject\Interfaces\IPersonService.cs" />
+    <Compile Include="Ninject\Interfaces\IWebServiceProxy.cs" />
+    <Compile Include="Ninject\LoggingComponent.cs" />
+    <Compile Include="Ninject\LoggingDataSink.cs" />
+    <Compile Include="Ninject\Person.cs" />
+    <Compile Include="Ninject\PersonRepository.cs" />
+    <Compile Include="Ninject\PersonService.cs" />
+    <Compile Include="Ninject\WebServiceProxy.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

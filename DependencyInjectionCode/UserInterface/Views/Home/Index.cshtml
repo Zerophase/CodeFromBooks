@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>Featured Products</h2>
+
+<div>
+    @foreach (var product in this.Model.Products)
+    {
+        this.Html.Encode(product.SummaryText);
+    }
+</div>

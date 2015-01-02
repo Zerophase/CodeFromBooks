@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MyClass" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>MyClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Application" Collapsed="true">
+    <Position X="4.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Button" Collapsed="true">
+    <Position X="6.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Button.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dialog" Collapsed="true">
+    <Position X="9" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Dialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpHandler" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAgAAAIAAAAAEAAAAAAAAAAAAAAEAAEAAAAA=</HashCode>
+      <FileName>HelpHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Widget" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Widget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Command" Collapsed="true">
+    <Position X="15.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAABAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenCommand" Collapsed="true">
+    <Position X="12.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEACQAAAAAABAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OpenCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Document" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAIAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Document.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PasteCommand" Collapsed="true">
+    <Position X="18" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAEAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PasteCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleCommand&lt;Receiver&gt;" Collapsed="true">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>SimpleCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MacroCommand" Collapsed="true">
+    <Position X="15.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAgAAAAAAAQAAAAABAAAAAAAAAAAAAQAABAAAAA=</HashCode>
+      <FileName>MacroCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BooleanExp" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAgAAAgAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>BooleanExp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Context" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Context.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VariableExp" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAEAAAAAAAAAgAAAgAEAAAAAAAAAAAAACA=</HashCode>
+      <FileName>VariableExp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AndExp" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAgAAAgABEAAAAAAAAAEAACA=</HashCode>
+      <FileName>AndExp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrExp" Collapsed="true">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAIAAAAAAAAgAAAgABAAAAAAAAAQAAACA=</HashCode>
+      <FileName>OrExp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Constant" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAgAEAAgAIAAAAAAAACA=</HashCode>
+      <FileName>Constant.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotExp" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAgAAAgAEAAAAAAAAACAAACA=</HashCode>
+      <FileName>NotExp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="List&lt;Item&gt;" Collapsed="true">
+    <Position X="16.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAAAAAAQRCwEAAAAQAAAAAAAAAAAAiAAAAAAI=</HashCode>
+      <FileName>List.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Item" Collapsed="true">
+    <Position X="26" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>List.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractList&lt;Item&gt;" Collapsed="true">
+    <Position X="16.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Employee" Collapsed="true">
+    <Position X="19" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAEAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Employee.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeAggregate" Collapsed="true">
+    <Position X="20.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAgAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>EmployeeAggregate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Iterator&lt;Item&gt;" Collapsed="true">
+    <Position X="3" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAAAQAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Iterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IteratorPtr&lt;Item&gt;" Collapsed="true">
+    <Position X="19" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAgAAAAAAAAAAAAggAAAgAAA=</HashCode>
+      <FileName>IteratorPtr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListIterator&lt;Item&gt;" Collapsed="true">
+    <Position X="5.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAQAQAAAAAAAAAAAABAAAAAQAAABAAAAAA=</HashCode>
+      <FileName>ListIterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListTraverser&lt;Item&gt;" Collapsed="true">
+    <Position X="16.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAIAAAAAAAAAAAAAAAAEABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ListTraverser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrintNEmployees" Collapsed="true">
+    <Position X="16.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAIBAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>PrintNEmployees.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReverListIterator&lt;Item&gt;" Collapsed="true">
+    <Position X="0.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAAAQAAAAAAAAAAAABAIAAAQAAABAAAAAA=</HashCode>
+      <FileName>ReverseListIterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkipList&lt;Item&gt;" Collapsed="true">
+    <Position X="3" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SkipList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ButtonMediator" Collapsed="true">
+    <Position X="8.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAIAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ButtonMediator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogDirector" Collapsed="true">
+    <Position X="3.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAABAEEAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>DialogDirector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntryField" Collapsed="true">
+    <Position X="11" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAIAIAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>EntryField.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FontDialogDirector" Collapsed="true">
+    <Position X="3.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKAAAAgAAAgAAAAAAABAAAAgAAEAAAAAAAQAAAAAA=</HashCode>
+      <FileName>FontDialogDirector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListBox" Collapsed="true">
+    <Position X="13.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAABAAAAIAAA=</HashCode>
+      <FileName>ListBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MouseEvent" Collapsed="true">
+    <Position X="22.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MouseEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WidgetMediator" Collapsed="true">
+    <Position X="11" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAABAAIAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>WidgetMediator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Originator" Collapsed="true">
+    <Position X="26" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Originator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Memento" Collapsed="true">
+    <Position X="20.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABUAAAAAAAAAAAAAACAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Memento.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Graphic" Collapsed="true">
+    <Position X="22.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graphic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveCommand" Collapsed="true">
+    <Position X="24.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAQAAAAECAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MoveCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstraintSolverMemento" Collapsed="true">
+    <Position X="22.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConstraitSolverMemento.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Point" Collapsed="true">
+    <Position X="19" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>Point.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstraintSolver" Collapsed="true">
+    <Position X="20.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAQAIAAAAAAABQQAAAAAAAAA=</HashCode>
+      <FileName>ConstraintSolver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Observer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Subject" Collapsed="true">
+    <Position X="0.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAIAAIAAAAAAAIAAAABAAAAAAAQAAAA=</HashCode>
+      <FileName>Subject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClockTimer" Collapsed="true">
+    <Position X="0.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA4AA=</HashCode>
+      <FileName>ClockTimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitalClock" Collapsed="true">
+    <Position X="8.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAgAAAAAAAAgAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DigitalClock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnalogClock" Collapsed="true">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>AnalogClock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCPConnection" Collapsed="true">
+    <Position X="20.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAIAABAAAAEAACABAAAAAAAAAIBAAQACAAAA=</HashCode>
+      <FileName>TCPConnection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCPState" Collapsed="true">
+    <Position X="13" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAEAAAABAAAAAAAAAIBAARACAAAA=</HashCode>
+      <FileName>TCPState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCPEstablished" Collapsed="true">
+    <Position X="13" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABACAAAA=</HashCode>
+      <FileName>TCPEstablished.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCPListen" Collapsed="true">
+    <Position X="15.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>TCPListen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCPClosed" Collapsed="true">
+    <Position X="10.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAAQAAAAAA=</HashCode>
+      <FileName>TCPClosed.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Composition" Collapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAKAAAAAAQAAAQACAAQAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Composition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Compositor" Collapsed="true">
+    <Position X="3" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Compositor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coord" Collapsed="true">
+    <Position X="24.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQABgAAAAAAA=</HashCode>
+      <FileName>Coord.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleCompositor" Collapsed="true">
+    <Position X="0.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SimpleCompositor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeXCompositor" Collapsed="true">
+    <Position X="3" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TeXCompositor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArrayCompositor" Collapsed="true">
+    <Position X="5.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ArrayCompositor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="View" Collapsed="true">
+    <Position X="13.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAABAAAAAAAACAAAAAAQAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyView" Collapsed="true">
+    <Position X="13.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>MyView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Equipment" Collapsed="true">
+    <Position X="4" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAIAAAAAAAAAAAAAAAAAQAAgAACAABACAAAAAAAAA=</HashCode>
+      <FileName>Equipment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EquipmentVisitor" Collapsed="true">
+    <Position X="9.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAEAAAAAACAAAABAAgAAAAAAAAQAAA=</HashCode>
+      <FileName>EquipmentVisitor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Currency" Collapsed="true">
+    <Position X="26" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Currency.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Watt" Collapsed="true">
+    <Position X="22.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Watt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FloppyDisk" Collapsed="true">
+    <Position X="0.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQQAAAAAAAAAAAAAAAAAAAAAgAACAABAAAAAAAAAAA=</HashCode>
+      <FileName>FloppyDisk.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Card" Collapsed="true">
+    <Position X="3" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIBAAAAgAAAAAAAAAAAAAAAAAgAACAABAAAAAAAAAAA=</HashCode>
+      <FileName>Card.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chassis" Collapsed="true">
+    <Position X="5.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAABAAAAAAAAgAAAAAAAAAAgAAiAABAAAAAAAAAAA=</HashCode>
+      <FileName>Chassis.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bus" Collapsed="true">
+    <Position X="7.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIAAAAAAAAAAAAAAAAAAAAAIgAACAABAAAAAAAAAAA=</HashCode>
+      <FileName>Bus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PricingVisitor" Collapsed="true">
+    <Position X="10.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAEAAEAAAAAACAAAABAAgAAAAAAABAAAA=</HashCode>
+      <FileName>PricingVisitor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryVisitor" Collapsed="true">
+    <Position X="8.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAACAAAAAEAAAAAACAAAAAAAiAAAIAAAAAAAA=</HashCode>
+      <FileName>InventoryVisitor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inventory" Collapsed="true">
+    <Position X="24.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAAABAAgAAAAA=</HashCode>
+      <FileName>Inventory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Node" Collapsed="true">
+    <Position X="19" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAA=</HashCode>
+      <FileName>List.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="Topic" Collapsed="true">
+    <Position X="13.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HelpHandler.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

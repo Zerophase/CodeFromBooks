@@ -1,0 +1,20 @@
+# CMake generation dependency list for this directory.
+C:/Users/Zerophase/Documents/Visual Studio 2013/Projects/CPP_TDD/Chapter8/Chapter8/CMakeLists.txt
+C:/Users/Zerophase/Documents/Visual Studio 2013/Projects/CPP_TDD/Chapter8/TestBuild/CMakeFiles/3.0.1/CMakeSystem.cmake
+C:/Users/Zerophase/Documents/Visual Studio 2013/Projects/CPP_TDD/Chapter8/TestBuild/CMakeFiles/3.0.1/CMakeCCompiler.cmake
+C:/Users/Zerophase/Documents/Visual Studio 2013/Projects/CPP_TDD/Chapter8/TestBuild/CMakeFiles/3.0.1/CMakeCXXCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/Platform/Windows-MSVC.cmake
+C:/Users/Zerophase/Documents/Visual Studio 2013/Projects/CPP_TDD/Chapter8/TestBuild/CMakeFiles/3.0.1/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/FindBoost.cmake

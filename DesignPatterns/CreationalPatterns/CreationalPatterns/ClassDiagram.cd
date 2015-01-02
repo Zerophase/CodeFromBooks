@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BombedMazeGame" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAgAA=</HashCode>
+      <FileName>BombedMazeGame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BombedWall" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEACAAAAAAAAEAAAAEAAAAAAAABA=</HashCode>
+      <FileName>BombedWall.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderMadeMaze" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAgAAAAQAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>BuilderMadeMaze.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CountingMazeBuilder" Collapsed="true">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAACAAAAAIAAAIIAAAAAAEAAAABAAAAAAA=</HashCode>
+      <FileName>CountingMazeBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Door" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAQAAAAAAAAAMAAAEAAABAAAAAAAAABA=</HashCode>
+      <FileName>Door.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoorNeedingSpell" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DoorNeedingSpell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnchantedMazeFactory" Collapsed="true">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAgAA=</HashCode>
+      <FileName>EnchantedMazeFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnchantedMazeGame" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAEAAAAAAAAgAAAAAgAA=</HashCode>
+      <FileName>EnchantedMazeGame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnchantedRoom" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnchantedRoom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MapSite" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapSite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maze" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAQCAAAAAAAAAIAAAAAAAAAAAAAIAABA=</HashCode>
+      <FileName>Maze.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MazeBuilder" Collapsed="true">
+    <Position X="1.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAIAAAAAAAAAAAIAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>MazeBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MazeFactory" Collapsed="true">
+    <Position X="6.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAABAAAAAAAAAAABAAAAAAIAAAAAAAAAAAgAA=</HashCode>
+      <FileName>MazeFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MazeGame" Collapsed="true">
+    <Position X="1.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MazeGame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MazePrototypeFactory" Collapsed="true">
+    <Position X="7.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAABAAAAAAAAACABAAAAAAJAAAAAABABAAgAA=</HashCode>
+      <FileName>MazePrototypeFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MazePrototypeFactoryImplementation" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>MazePrototypeFactoryImplementation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Room" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAQCgABAIAAAQAAAEAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Room.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoomWithABomb" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAQAEAAAAAAAAAAAAARA=</HashCode>
+      <FileName>RoomWithABomb.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SingletonMazeFactory" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAACAAQAAAAAAAAAA=</HashCode>
+      <FileName>SingletonMazeFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StandardMazeBuilder" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAIAAAAAAAAAABIAAAAAAAgBAAAAAAA=</HashCode>
+      <FileName>StandardMazeBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wall" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAEAAQAAAAEAAAAABA=</HashCode>
+      <FileName>Wall.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Spell" Collapsed="true">
+    <Position X="12" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnchantedRoom.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Direction" Collapsed="true">
+    <Position X="10.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAABAAQ=</HashCode>
+      <FileName>MapSite.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

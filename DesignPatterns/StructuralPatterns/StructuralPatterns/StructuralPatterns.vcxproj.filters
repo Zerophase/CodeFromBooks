@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\AdapterHeaders">
+      <UniqueIdentifier>{becb6bdb-e358-411c-beeb-0d1427970b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AdapterSource">
+      <UniqueIdentifier>{2912695c-df2e-4805-be78-2e0cae7f2951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BridgeHeader">
+      <UniqueIdentifier>{bcac1776-632d-4db4-b0a3-8a1adac47f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BridgeSource">
+      <UniqueIdentifier>{524b6551-9c02-406a-9439-392a60282786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CompositeHeaders">
+      <UniqueIdentifier>{44f7b4b1-e179-4587-8e1c-e1e7bf3496a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CompositeSource">
+      <UniqueIdentifier>{6a949f5e-0f70-4243-91b3-58a61f36e833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DecoratorHeaders">
+      <UniqueIdentifier>{2dc5f7e8-747a-4ae2-8ef8-520fc36eafe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DecoratorSource">
+      <UniqueIdentifier>{481db399-225d-4d72-88f8-2462bff6640f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FacadeHeaders">
+      <UniqueIdentifier>{c859367f-d9e9-40fd-973f-1e339cfe5c08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FacadeSource">
+      <UniqueIdentifier>{db050ade-f7f2-4a52-980b-858cd8ebbbe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FlyWeight">
+      <UniqueIdentifier>{84ca06ae-2e64-4da7-b1de-6cdf4ab2a2aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FlyWeight">
+      <UniqueIdentifier>{46e166e2-6564-450d-b38d-47ad0815a927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ProxyHeaders">
+      <UniqueIdentifier>{7e03be23-1ffb-4a95-bfb7-b979e1e5b7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProxySource">
+      <UniqueIdentifier>{b46364b3-a6be-4526-82fc-587953560413}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shape.h">
+      <Filter>Header Files\AdapterHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Manipulator.h">
+      <Filter>Header Files\AdapterHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TextView.h">
+      <Filter>Header Files\AdapterHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Coord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextShape.h">
+      <Filter>Header Files\AdapterHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TextManipulator.h">
+      <Filter>Header Files\AdapterHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TextShapeObjectAdapter.h">
+      <Filter>Header Files\AdapterHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\BridgeHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowImp.h">
+      <Filter>Header Files\BridgeHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationWindow.h">
+      <Filter>Header Files\BridgeHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>Header Files\BridgeHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="IconWindow.h">
+      <Filter>Header Files\BridgeHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="XWindowImp.h">
+      <Filter>Header Files\BridgeHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>Header Files\CompositeHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="FloppyDisk.h">
+      <Filter>Header Files\CompositeHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CompositeEquipment.h">
+      <Filter>Header Files\CompositeHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Currency.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Watt.h">
+      <Filter>Header Files\CompositeHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualComponent.h">
+      <Filter>Header Files\DecoratorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Decorator.h">
+      <Filter>Header Files\DecoratorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="BorderDecorator.h">
+      <Filter>Header Files\DecoratorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Scanner.h">
+      <Filter>Header Files\FacadeHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Header Files\FacadeHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgramNodeBuilder.h">
+      <Filter>Header Files\FacadeHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgramNode.h">
+      <Filter>Header Files\FacadeHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeGenerator.h">
+      <Filter>Header Files\FacadeHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Compiler.h">
+      <Filter>Header Files\FacadeHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyph.h">
+      <Filter>Header Files\FlyWeight</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files\FlyWeight</Filter>
+    </ClInclude>
+    <ClInclude Include="GlyphContext.h">
+      <Filter>Header Files\FlyWeight</Filter>
+    </ClInclude>
+    <ClInclude Include="GlyphFactory.h">
+      <Filter>Header Files\FlyWeight</Filter>
+    </ClInclude>
+    <ClInclude Include="Row.h">
+      <Filter>Header Files\FlyWeight</Filter>
+    </ClInclude>
+    <ClInclude Include="Column.h">
+      <Filter>Header Files\FlyWeight</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Header Files\FlyWeight</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic.h">
+      <Filter>Header Files\ProxyHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Header Files\ProxyHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProxy.h">
+      <Filter>Header Files\ProxyHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TextDocument.h">
+      <Filter>Header Files\ProxyHeaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Manipulator.cpp">
+      <Filter>Source Files\AdapterSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Source Files\AdapterSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Coord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextView.cpp">
+      <Filter>Source Files\AdapterSource</Filter>
+    </ClCompile>
+    <ClCompile Include="TextShape.cpp">
+      <Filter>Source Files\AdapterSource</Filter>
+    </ClCompile>
+    <ClCompile Include="TextManipulator.cpp">
+      <Filter>Source Files\AdapterSource</Filter>
+    </ClCompile>
+    <ClCompile Include="TextViewObjectAdapter.cpp">
+      <Filter>Source Files\AdapterSource</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowImp.cpp">
+      <Filter>Source Files\BridgeSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationWindow.cpp">
+      <Filter>Source Files\BridgeSource</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>Source Files\BridgeSource</Filter>
+    </ClCompile>
+    <ClCompile Include="IconWindow.cpp">
+      <Filter>Source Files\BridgeSource</Filter>
+    </ClCompile>
+    <ClCompile Include="XWindowImp.cpp">
+      <Filter>Source Files\BridgeSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\BridgeSource</Filter>
+    </ClCompile>
+    <ClCompile Include="CompositeEquipment.cpp">
+      <Filter>Source Files\CompositeSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Iterator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Currency.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment.cpp">
+      <Filter>Source Files\CompositeSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Watt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Decorator.cpp">
+      <Filter>Source Files\DecoratorSource</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualComponent.cpp">
+      <Filter>Source Files\DecoratorSource</Filter>
+    </ClCompile>
+    <ClCompile Include="BorderDecorator.cpp">
+      <Filter>Source Files\DecoratorSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Compile.cpp">
+      <Filter>Source Files\FacadeSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GlyphFactory.cpp">
+      <Filter>Source Files\FlyWeight</Filter>
+    </ClCompile>
+    <ClCompile Include="Row.cpp">
+      <Filter>Source Files\FlyWeight</Filter>
+    </ClCompile>
+    <ClCompile Include="Column.cpp">
+      <Filter>Source Files\FlyWeight</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files\FlyWeight</Filter>
+    </ClCompile>
+    <ClCompile Include="GlyphContext.cpp">
+      <Filter>Source Files\FlyWeight</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Source Files\FlyWeight</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyph.cpp">
+      <Filter>Source Files\FlyWeight</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic.cpp">
+      <Filter>Source Files\ProxySource</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageProxy.cpp">
+      <Filter>Source Files\ProxySource</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Source Files\ProxySource</Filter>
+    </ClCompile>
+    <ClCompile Include="TextDocument.cpp">
+      <Filter>Source Files\ProxySource</Filter>
+    </ClCompile>
+    <ClCompile Include="TestOfProxy.cpp">
+      <Filter>Source Files\ProxySource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

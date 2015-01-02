@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ChainOfResponsibilityHeaders">
+      <UniqueIdentifier>{5e859dff-b3a0-4427-ae32-303dedba7e43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChainOfResponsibilitySource">
+      <UniqueIdentifier>{c5ad863c-85f4-414e-a4b2-a05bf61c1137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CommandHeaders">
+      <UniqueIdentifier>{14b12110-ec4f-4d91-a9e9-778fc265798e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CommandSource">
+      <UniqueIdentifier>{04e22ebe-8358-41e5-a3cd-c89739e30d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\InterpreterHeaders">
+      <UniqueIdentifier>{ed372ac2-ec2d-488c-8112-a9eccce07c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InterpreterSource">
+      <UniqueIdentifier>{2db16e6d-46e4-484c-b7eb-fd1d722d3fd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IteratorHeaders">
+      <UniqueIdentifier>{460af072-3311-4fe6-a93d-57a3787cc743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IteratorSource">
+      <UniqueIdentifier>{00af583e-bb12-416a-b52c-6a1de825e77c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MediatorHeaders">
+      <UniqueIdentifier>{2e701a81-2d07-48ec-902f-0620402a3c75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetMediator">
+      <UniqueIdentifier>{ae1f7266-3637-4a9e-9451-a3f725dab718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MementoHeaders">
+      <UniqueIdentifier>{7b408d43-4c8b-4f79-ac83-ce1a9d5a506a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MementoSource">
+      <UniqueIdentifier>{1cabd278-5097-4c51-b95e-e50f52be7054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ObserverHeaders">
+      <UniqueIdentifier>{0d166312-ff37-4cf9-935f-be943a73ae5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ObserverSource">
+      <UniqueIdentifier>{a17bda33-9eb2-457c-928e-cf93db5e67bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StateHeaders">
+      <UniqueIdentifier>{a1ba46d3-c265-43cb-ab2f-1325b3853ef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StateSource">
+      <UniqueIdentifier>{a35f3709-36e7-4280-9a04-4ff6f592641c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StrategyHeaders">
+      <UniqueIdentifier>{6767a639-8826-4067-8c43-0e3cff49e501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StrategySource">
+      <UniqueIdentifier>{3035dda0-9c6d-4401-aadc-ebd2261515b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TemplateMethodHeaders">
+      <UniqueIdentifier>{3cf9909e-8c39-4340-9f26-d06aef67fa54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TemplateMethodSource">
+      <UniqueIdentifier>{6b78f5b8-6780-45a4-bd05-b89e568bc39d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VisitorHeaders">
+      <UniqueIdentifier>{6c2dc9ba-2591-4fc1-a56e-61177c0c7559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VisitorSource">
+      <UniqueIdentifier>{59eb16e3-8c9e-468d-af1e-6fac1b8b8cb6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HelpHandler.h">
+      <Filter>Header Files\ChainOfResponsibilityHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Widget.h">
+      <Filter>Header Files\ChainOfResponsibilityHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\ChainOfResponsibilityHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog.h">
+      <Filter>Header Files\ChainOfResponsibilityHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files\ChainOfResponsibilityHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Header Files\CommandHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCommand.h">
+      <Filter>Header Files\CommandHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationForCommand.h">
+      <Filter>Header Files\CommandHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Document.h">
+      <Filter>Header Files\CommandHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="PasteCommand.h">
+      <Filter>Header Files\CommandHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleCommand.h">
+      <Filter>Header Files\CommandHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Receiver.h">
+      <Filter>Header Files\CommandHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroCommand.h">
+      <Filter>Header Files\CommandHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="BooleanExp.h">
+      <Filter>Header Files\InterpreterHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.h">
+      <Filter>Header Files\InterpreterHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="VariableExp.h">
+      <Filter>Header Files\InterpreterHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="AndExp.h">
+      <Filter>Header Files\InterpreterHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="OrExp.h">
+      <Filter>Header Files\InterpreterHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Constant.h">
+      <Filter>Header Files\InterpreterHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="NotExp.h">
+      <Filter>Header Files\InterpreterHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator.h">
+      <Filter>Header Files\IteratorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ListIterator.h">
+      <Filter>Header Files\IteratorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Header Files\IteratorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="EmployeeAggregate.h">
+      <Filter>Header Files\IteratorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseListIterator.h">
+      <Filter>Header Files\IteratorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="SkipList.h">
+      <Filter>Header Files\IteratorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractList.h">
+      <Filter>Header Files\IteratorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="IteratorPtr.h">
+      <Filter>Header Files\IteratorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ListTraverser.h">
+      <Filter>Header Files\IteratorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintNEmployees.h">
+      <Filter>Header Files\IteratorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogDirector.h">
+      <Filter>Header Files\MediatorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="WidgetMediator.h">
+      <Filter>Header Files\MediatorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseEvent.h">
+      <Filter>Header Files\MediatorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ListBox.h">
+      <Filter>Header Files\MediatorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="EntryField.h">
+      <Filter>Header Files\MediatorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonMediator.h">
+      <Filter>Header Files\MediatorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="FontDialogDirector.h">
+      <Filter>Header Files\MediatorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Originator.h">
+      <Filter>Header Files\MementoHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Memento.h">
+      <Filter>Header Files\MementoHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic.h">
+      <Filter>Header Files\MementoHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveCommand.h">
+      <Filter>Header Files\MementoHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraitSolverMemento.h">
+      <Filter>Header Files\MementoHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files\MementoHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintSolver.h">
+      <Filter>Header Files\MementoHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Header Files\ObserverHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Header Files\ObserverHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ClockTimer.h">
+      <Filter>Header Files\ObserverHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitalClock.h">
+      <Filter>Header Files\ObserverHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalogClock.h">
+      <Filter>Header Files\ObserverHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPConnection.h">
+      <Filter>Header Files\StateHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPState.h">
+      <Filter>Header Files\StateHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPEstablished.h">
+      <Filter>Header Files\StateHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPListen.h">
+      <Filter>Header Files\StateHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPClosed.h">
+      <Filter>Header Files\StateHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Composition.h">
+      <Filter>Header Files\StrategyHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Compositor.h">
+      <Filter>Header Files\StrategyHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Coord.h">
+      <Filter>Header Files\StrategyHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleCompositor.h">
+      <Filter>Header Files\StrategyHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TeXCompositor.h">
+      <Filter>Header Files\StrategyHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayCompositor.h">
+      <Filter>Header Files\StrategyHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>Header Files\TemplateMethodHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="MyView.h">
+      <Filter>Header Files\TemplateMethodHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>Header Files\VisitorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentVisitor.h">
+      <Filter>Header Files\VisitorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Currency.h">
+      <Filter>Header Files\VisitorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Watt.h">
+      <Filter>Header Files\VisitorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="FloppyDisk.h">
+      <Filter>Header Files\VisitorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>Header Files\VisitorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Chassis.h">
+      <Filter>Header Files\VisitorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Bus.h">
+      <Filter>Header Files\VisitorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="PricingVisitor.h">
+      <Filter>Header Files\VisitorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryVisitor.h">
+      <Filter>Header Files\VisitorHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Header Files\VisitorHeaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HelpHandler.cpp">
+      <Filter>Source Files\ChainOfResponsibilitySource</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget.cpp">
+      <Filter>Source Files\ChainOfResponsibilitySource</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\ChainOfResponsibilitySource</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog.cpp">
+      <Filter>Source Files\ChainOfResponsibilitySource</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files\ChainOfResponsibilitySource</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCommand.cpp">
+      <Filter>Source Files\CommandSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationForCommand.cpp">
+      <Filter>Source Files\CommandSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Document.cpp">
+      <Filter>Source Files\CommandSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Source Files\CommandSource</Filter>
+    </ClCompile>
+    <ClCompile Include="PasteCommand.cpp">
+      <Filter>Source Files\CommandSource</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleCommand.cpp">
+      <Filter>Source Files\CommandSource</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClass.cpp">
+      <Filter>Source Files\CommandSource</Filter>
+    </ClCompile>
+    <ClCompile Include="MacroCommands.cpp">
+      <Filter>Source Files\CommandSource</Filter>
+    </ClCompile>
+    <ClCompile Include="VariableExp.cpp">
+      <Filter>Source Files\InterpreterSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Context.cpp">
+      <Filter>Source Files\InterpreterSource</Filter>
+    </ClCompile>
+    <ClCompile Include="BooleanExp.cpp">
+      <Filter>Source Files\InterpreterSource</Filter>
+    </ClCompile>
+    <ClCompile Include="AndExp.cpp">
+      <Filter>Source Files\InterpreterSource</Filter>
+    </ClCompile>
+    <ClCompile Include="OrExp.cpp">
+      <Filter>Source Files\InterpreterSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Constant.cpp">
+      <Filter>Source Files\InterpreterSource</Filter>
+    </ClCompile>
+    <ClCompile Include="NotExp.cpp">
+      <Filter>Source Files\InterpreterSource</Filter>
+    </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListIterator.cpp">
+      <Filter>Source Files\IteratorSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ListTraverser.cpp">
+      <Filter>Source Files\IteratorSource</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintNEmployees.cpp">
+      <Filter>Source Files\IteratorSource</Filter>
+    </ClCompile>
+    <ClCompile Include="WidgetMediator.cpp">
+      <Filter>Source Files\WidgetMediator</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonMediator.cpp">
+      <Filter>Source Files\WidgetMediator</Filter>
+    </ClCompile>
+    <ClCompile Include="FontDialogDirector.cpp">
+      <Filter>Source Files\WidgetMediator</Filter>
+    </ClCompile>
+    <ClCompile Include="ListBox.cpp">
+      <Filter>Source Files\WidgetMediator</Filter>
+    </ClCompile>
+    <ClCompile Include="EntryField.cpp">
+      <Filter>Source Files\WidgetMediator</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveCommand.cpp">
+      <Filter>Source Files\MementoSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic.cpp">
+      <Filter>Source Files\MementoSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintSolverMemento.cpp">
+      <Filter>Source Files\MementoSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintSolver.cpp">
+      <Filter>Source Files\MementoSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>Source Files\ObserverSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ClockTimer.cpp">
+      <Filter>Source Files\ObserverSource</Filter>
+    </ClCompile>
+    <ClCompile Include="DigitalClock.cpp">
+      <Filter>Source Files\ObserverSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>Source Files\ObserverSource</Filter>
+    </ClCompile>
+    <ClCompile Include="AnalogClock.cpp">
+      <Filter>Source Files\ObserverSource</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPConnection.cpp">
+      <Filter>Source Files\StateSource</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPState.cpp">
+      <Filter>Source Files\StateSource</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPClosed.cpp">
+      <Filter>Source Files\StateSource</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPEstablished.cpp">
+      <Filter>Source Files\StateSource</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPListen.cpp">
+      <Filter>Source Files\StateSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Composition.cpp">
+      <Filter>Source Files\StrategySource</Filter>
+    </ClCompile>
+    <ClCompile Include="Coord.cpp">
+      <Filter>Source Files\StrategySource</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleCompositor.cpp">
+      <Filter>Source Files\StrategySource</Filter>
+    </ClCompile>
+    <ClCompile Include="Compositor.cpp">
+      <Filter>Source Files\StrategySource</Filter>
+    </ClCompile>
+    <ClCompile Include="TeXCompositor.cpp">
+      <Filter>Source Files\StrategySource</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayCompositor.cpp">
+      <Filter>Source Files\StrategySource</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>Source Files\TemplateMethodSource</Filter>
+    </ClCompile>
+    <ClCompile Include="MyView.cpp">
+      <Filter>Source Files\TemplateMethodSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Currency.cpp">
+      <Filter>Source Files\VisitorSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Watt.cpp">
+      <Filter>Source Files\VisitorSource</Filter>
+    </ClCompile>
+    <ClCompile Include="FloppyDisk.cpp">
+      <Filter>Source Files\VisitorSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment.cpp">
+      <Filter>Source Files\VisitorSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>Source Files\VisitorSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Chassis.cpp">
+      <Filter>Source Files\VisitorSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Bus.cpp">
+      <Filter>Source Files\VisitorSource</Filter>
+    </ClCompile>
+    <ClCompile Include="PricingVisitor.cpp">
+      <Filter>Source Files\VisitorSource</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipmentVisitor.cpp">
+      <Filter>Source Files\VisitorSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Source Files\VisitorSource</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryVisitor.cpp">
+      <Filter>Source Files\VisitorSource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

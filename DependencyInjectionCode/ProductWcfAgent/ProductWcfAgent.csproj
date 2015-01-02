@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D3813322-AD71-4310-B14F-8CB64D9E2AFE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProductWcfAgent</RootNamespace>
+    <AssemblyName>ProductWcfAgent</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Activation" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuditingCommerceServiceContainer.cs" />
+    <Compile Include="CircuitBreaker.cs" />
+    <Compile Include="CircuitBreakerProductManagementAgent.cs" />
+    <Compile Include="CircuitBreakerWithContinuationPassing\CircuitBreakerProductManagementAgent.cs" />
+    <Compile Include="CircuitBreakerWithContinuationPassing\ICircuitBreaker.cs" />
+    <Compile Include="ClientContractMapper.cs" />
+    <Compile Include="ClosedCircuitState.cs" />
+    <Compile Include="CommerceInstanceProvider.cs" />
+    <Compile Include="CommerceServiceContainer.cs" />
+    <Compile Include="CommerceServiceHost.cs" />
+    <Compile Include="ContractMapper.cs" />
+    <Compile Include="CommerceServiceHostFactory.cs" />
+    <Compile Include="HalfOpenCircuitState.cs" />
+    <Compile Include="ICircuitBreaker.cs" />
+    <Compile Include="ICircuitState.cs" />
+    <Compile Include="IClientContractMapper.cs" />
+    <Compile Include="IContractMapper.cs" />
+    <Compile Include="ICommerceServiceContainer.cs" />
+    <Compile Include="IProductChannelFactory.cs" />
+    <Compile Include="IProductManagementService.cs" />
+    <Compile Include="LifetimeManagingCommerceServiceContainer.cs" />
+    <Compile Include="MoneyContract.cs" />
+    <Compile Include="OpenCircuitState.cs" />
+    <Compile Include="ProductContract.cs" />
+    <Compile Include="ProductManagementService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReleasingCommerceServiceContainer.cs" />
+    <Compile Include="WcfClient\IProductManagementService.cs" />
+    <Compile Include="WcfClient\ProductChannelFactory.cs" />
+    <Compile Include="WcfProductManagementAgent.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommerceSqlDataAccess\CommerceSqlDataAccess.csproj">
+      <Project>{db01edab-ec7c-4700-aaea-2fca35ceb80e}</Project>
+      <Name>CommerceSqlDataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DomainModel\DomainModel.csproj">
+      <Project>{0749e63b-b5d3-44a0-b6b8-cba91ee014f8}</Project>
+      <Name>DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PresentationLogic\PresentationLogic.csproj">
+      <Project>{16185db8-cfe9-4ce3-8569-8042f12bbb5d}</Project>
+      <Name>PresentationLogic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

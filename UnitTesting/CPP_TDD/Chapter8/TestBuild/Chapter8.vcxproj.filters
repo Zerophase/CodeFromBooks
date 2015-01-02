@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Zerophase\Documents\Visual Studio 2013\Projects\CPP_TDD\Chapter8\Chapter8\testmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zerophase\Documents\Visual Studio 2013\Projects\CPP_TDD\Chapter8\Chapter8\WavReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zerophase\Documents\Visual Studio 2013\Projects\CPP_TDD\Chapter8\Chapter8\WavDescriptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Zerophase\Documents\Visual Studio 2013\Projects\CPP_TDD\Chapter8\Chapter8\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2B91D06E-A6B9-432F-A052-135A1D280872}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

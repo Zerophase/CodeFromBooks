@@ -1,0 +1,4 @@
+C:/Users/Zerophase/Documents/Visual Studio 2013/Projects/CPP_TDD/Chapter8/TestBuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/Zerophase/Documents/Visual Studio 2013/Projects/CPP_TDD/Chapter8/TestBuild/CMakeFiles/Chapter8.dir
+C:/Users/Zerophase/Documents/Visual Studio 2013/Projects/CPP_TDD/Chapter8/TestBuild/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Zerophase/Documents/Visual Studio 2013/Projects/CPP_TDD/Chapter8/TestBuild/CMakeFiles/utest.dir

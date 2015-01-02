@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Coord" Collapsed="true">
+    <Position X="19.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAYABgAAAAAAA=</HashCode>
+      <FileName>Coord.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Currency" Collapsed="true">
+    <Position X="21.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Currency.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Iterator&lt;T&gt;" Collapsed="true">
+    <Position X="19.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAAAQAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Iterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Point" Collapsed="true">
+    <Position X="14.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAQAAAAAAAABgAAAAYAA=</HashCode>
+      <FileName>Point.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Manipulator" Collapsed="true">
+    <Position X="8.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Manipulator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shape" Collapsed="true">
+    <Position X="8.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAECAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextManipulator" Collapsed="true">
+    <Position X="8.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TextManipulator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextShape" Collapsed="true">
+    <Position X="8.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABICAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TextShape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextShapeObjectAdapter" Collapsed="true">
+    <Position X="11" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABACAAAAAIAAAAAAAAAAAAAACAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>TextShapeObjectAdapter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextView" Collapsed="true">
+    <Position X="11.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAIAAAAAAAQgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TextView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationWindow" Collapsed="true">
+    <Position X="3.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IconWindow" Collapsed="true">
+    <Position X="5.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IconWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="View" Collapsed="true">
+    <Position X="16" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>View.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Window" Collapsed="true">
+    <Position X="4.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAAAABAAMYAIAAAABAAAQAAQAAAIAEADCACAAIA=</HashCode>
+      <FileName>Window.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowImp" Collapsed="true">
+    <Position X="8.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAASAAAAAQgEAAAAAAAAAAAAAAAAAIAAAAIAAAAAAA=</HashCode>
+      <FileName>WindowImp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XWindowImp" Collapsed="true">
+    <Position X="8.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XWindowImp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeEquipment" Collapsed="true">
+    <Position X="3.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAACAAAABAAAAgAAGAABQAAAAAAAAAA=</HashCode>
+      <FileName>CompositeEquipment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Equipment" Collapsed="true">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAACAAAIBAQAAgAECAAFACAAAAAAAAA=</HashCode>
+      <FileName>Equipment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FloppyDisk" Collapsed="true">
+    <Position X="5.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAAAAAAAAAAAAAAAAAAgAACAABAAAAAAAAAAA=</HashCode>
+      <FileName>FloppyDisk.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Watt" Collapsed="true">
+    <Position X="17.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Watt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BorderDecorator" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAIAAAAgAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BorderDecorator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Decorator" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAEAQAA=</HashCode>
+      <FileName>Decorator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualComponent" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAMAAAA=</HashCode>
+      <FileName>VisualComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeGenerator" Collapsed="true">
+    <Position X="14.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAQAAAAAEAAA=</HashCode>
+      <FileName>CodeGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Compiler" Collapsed="true">
+    <Position X="17.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Compiler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Parser" Collapsed="true">
+    <Position X="21.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Parser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProgramNode" Collapsed="true">
+    <Position X="16" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAAAAAAAAAAABAAABAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>ProgramNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProgramNodeBuilder" Collapsed="true">
+    <Position X="17.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAQEAAAAEgA=</HashCode>
+      <FileName>ProgramNodeBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scanner" Collapsed="true">
+    <Position X="21.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAQAACAAAA=</HashCode>
+      <FileName>Scanner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character" Collapsed="true">
+    <Position X="0.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Character.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Column" Collapsed="true">
+    <Position X="16" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Column.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Font" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Font.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAGAAAAAAAgAAEACABACAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Glyph.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlyphContext" Collapsed="true">
+    <Position X="16" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAkAAIAAAAAAAAAAAAACAAAgAAAAAAAAAAAARAAA=</HashCode>
+      <FileName>GlyphContext.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlyphFactory" Collapsed="true">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAIAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>GlyphFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Row" Collapsed="true">
+    <Position X="19.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Row.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Graphic" Collapsed="true">
+    <Position X="1.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQgIAAAIAAAgAAAAAAAAQAAQAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Graphic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Image" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAIAAAgAAAAAAAAQAAQAAABIAAAAAAAAAAAA=</HashCode>
+      <FileName>Image.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageProxy" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgICAAIAAQwAAAAAAAAAQEQAABAAAAEAAAAAAAAA=</HashCode>
+      <FileName>ImageProxy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextDocument" Collapsed="true">
+    <Position X="14.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TextDocument.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

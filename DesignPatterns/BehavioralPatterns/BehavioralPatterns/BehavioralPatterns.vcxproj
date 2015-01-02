@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8A9553EC-6D7E-4B41-9465-59FBE0FF047A}</ProjectGuid>
+    <RootNamespace>BehavioralPatterns</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractList.h" />
+    <ClInclude Include="AnalogClock.h" />
+    <ClInclude Include="AndExp.h" />
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="ApplicationForCommand.h" />
+    <ClInclude Include="ArrayCompositor.h" />
+    <ClInclude Include="BooleanExp.h" />
+    <ClInclude Include="Bus.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="ButtonMediator.h" />
+    <ClInclude Include="Card.h" />
+    <ClInclude Include="Chassis.h" />
+    <ClInclude Include="ClockTimer.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="Composition.h" />
+    <ClInclude Include="Compositor.h" />
+    <ClInclude Include="Constant.h" />
+    <ClInclude Include="ConstraintSolver.h" />
+    <ClInclude Include="Context.h" />
+    <ClInclude Include="Coord.h" />
+    <ClInclude Include="Currency.h" />
+    <ClInclude Include="Dialog.h" />
+    <ClInclude Include="DialogDirector.h" />
+    <ClInclude Include="DigitalClock.h" />
+    <ClInclude Include="Document.h" />
+    <ClInclude Include="Employee.h" />
+    <ClInclude Include="EmployeeAggregate.h" />
+    <ClInclude Include="EntryField.h" />
+    <ClInclude Include="Equipment.h" />
+    <ClInclude Include="EquipmentVisitor.h" />
+    <ClInclude Include="FloppyDisk.h" />
+    <ClInclude Include="FontDialogDirector.h" />
+    <ClInclude Include="Graphic.h" />
+    <ClInclude Include="ConstraitSolverMemento.h" />
+    <ClInclude Include="HelpHandler.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="InventoryVisitor.h" />
+    <ClInclude Include="Iterator.h" />
+    <ClInclude Include="IteratorPtr.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="ListBox.h" />
+    <ClInclude Include="ListIterator.h" />
+    <ClInclude Include="ListTraverser.h" />
+    <ClInclude Include="MacroCommand.h" />
+    <ClInclude Include="Memento.h" />
+    <ClInclude Include="MouseEvent.h" />
+    <ClInclude Include="MoveCommand.h" />
+    <ClInclude Include="MyClass.h" />
+    <ClInclude Include="MyView.h" />
+    <ClInclude Include="NotExp.h" />
+    <ClInclude Include="Observer.h" />
+    <ClInclude Include="OpenCommand.h" />
+    <ClInclude Include="OrExp.h" />
+    <ClInclude Include="Originator.h" />
+    <ClInclude Include="PasteCommand.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="PricingVisitor.h" />
+    <ClInclude Include="PrintNEmployees.h" />
+    <ClInclude Include="Receiver.h" />
+    <ClInclude Include="ReverseListIterator.h" />
+    <ClInclude Include="SimpleCommand.h" />
+    <ClInclude Include="SimpleCompositor.h" />
+    <ClInclude Include="SkipList.h" />
+    <ClInclude Include="Subject.h" />
+    <ClInclude Include="TCPClosed.h" />
+    <ClInclude Include="TCPConnection.h" />
+    <ClInclude Include="TCPEstablished.h" />
+    <ClInclude Include="TCPListen.h" />
+    <ClInclude Include="TCPState.h" />
+    <ClInclude Include="TeXCompositor.h" />
+    <ClInclude Include="VariableExp.h" />
+    <ClInclude Include="View.h" />
+    <ClInclude Include="Watt.h" />
+    <ClInclude Include="Widget.h" />
+    <ClInclude Include="WidgetMediator.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnalogClock.cpp" />
+    <ClCompile Include="AndExp.cpp" />
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="ApplicationForCommand.cpp" />
+    <ClCompile Include="ArrayCompositor.cpp" />
+    <ClCompile Include="BooleanExp.cpp" />
+    <ClCompile Include="Bus.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="ButtonMediator.cpp" />
+    <ClCompile Include="Card.cpp" />
+    <ClCompile Include="Chassis.cpp" />
+    <ClCompile Include="ClockTimer.cpp" />
+    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="Composition.cpp" />
+    <ClCompile Include="Compositor.cpp" />
+    <ClCompile Include="Constant.cpp" />
+    <ClCompile Include="ConstraintSolver.cpp" />
+    <ClCompile Include="ConstraintSolverMemento.cpp" />
+    <ClCompile Include="Context.cpp" />
+    <ClCompile Include="Coord.cpp" />
+    <ClCompile Include="Currency.cpp" />
+    <ClCompile Include="Dialog.cpp" />
+    <ClCompile Include="DigitalClock.cpp" />
+    <ClCompile Include="Document.cpp" />
+    <ClCompile Include="EntryField.cpp" />
+    <ClCompile Include="Equipment.cpp" />
+    <ClCompile Include="EquipmentVisitor.cpp" />
+    <ClCompile Include="FloppyDisk.cpp" />
+    <ClCompile Include="FontDialogDirector.cpp" />
+    <ClCompile Include="Graphic.cpp" />
+    <ClCompile Include="HelpHandler.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="InventoryVisitor.cpp" />
+    <ClCompile Include="List.cpp" />
+    <ClCompile Include="ListBox.cpp" />
+    <ClCompile Include="ListIterator.cpp" />
+    <ClCompile Include="ListTraverser.cpp" />
+    <ClCompile Include="MacroCommands.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MoveCommand.cpp" />
+    <ClCompile Include="MyClass.cpp" />
+    <ClCompile Include="MyView.cpp" />
+    <ClCompile Include="NotExp.cpp" />
+    <ClCompile Include="Observer.cpp" />
+    <ClCompile Include="OpenCommand.cpp" />
+    <ClCompile Include="OrExp.cpp" />
+    <ClCompile Include="PasteCommand.cpp" />
+    <ClCompile Include="PricingVisitor.cpp" />
+    <ClCompile Include="PrintNEmployees.cpp" />
+    <ClCompile Include="SimpleCommand.cpp" />
+    <ClCompile Include="SimpleCompositor.cpp" />
+    <ClCompile Include="Subject.cpp" />
+    <ClCompile Include="TCPClosed.cpp" />
+    <ClCompile Include="TCPConnection.cpp" />
+    <ClCompile Include="TCPEstablished.cpp" />
+    <ClCompile Include="TCPListen.cpp" />
+    <ClCompile Include="TCPState.cpp" />
+    <ClCompile Include="TeXCompositor.cpp" />
+    <ClCompile Include="VariableExp.cpp" />
+    <ClCompile Include="View.cpp" />
+    <ClCompile Include="Watt.cpp" />
+    <ClCompile Include="Widget.cpp" />
+    <ClCompile Include="WidgetMediator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

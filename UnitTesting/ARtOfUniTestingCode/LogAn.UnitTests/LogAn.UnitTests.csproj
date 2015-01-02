@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1D45A90D-F5C9-4199-A42B-0A16E62F5938}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LogAn.UnitTests</RootNamespace>
+    <AssemblyName>LogAn.UnitTests</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NSubstitute">
+      <HintPath>..\packages\NSubstitute.1.7.2.0\lib\NET45\NSubstitute.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseClasses\BaseTestsClass.cs" />
+    <Compile Include="BaseClasses\FillInTheBlanksStringParserTests.cs" />
+    <Compile Include="BaseClasses\GenericParserTests.cs" />
+    <Compile Include="BaseClasses\TemplateStringParserTests.cs" />
+    <Compile Include="Mocks\FakeLogger2.cs" />
+    <Compile Include="Mocks\FakeWebService.cs" />
+    <Compile Include="Mocks\FakeWebService_CH5.cs" />
+    <Compile Include="Stubs\AlwaysValidFakeExtensionManager.cs" />
+    <Compile Include="Stubs\FakeEmailService.cs" />
+    <Compile Include="Stubs\FakeEmailService_WithProperties.cs" />
+    <Compile Include="Stubs\FakeExtensionManager.cs" />
+    <Compile Include="TestsWithIsolationFrameworks\TestsWithIsolationFrameworks.cs" />
+    <Compile Include="Tests\CH11_Tests\OverridableClass_Tests.cs" />
+    <Compile Include="Tests\CH11_Tests\SingletonTest.cs" />
+    <Compile Include="Tests\CH7_Tests.cs" />
+    <Compile Include="Tests\LogAnalAndConfigManTests_Refactored\ConfigurationManagerTests_Refactored.cs" />
+    <Compile Include="Tests\LogAnalAndConfigManTests_Refactored\LogAnalyzerTest_Refactored.cs" />
+    <Compile Include="Tests\LogAnalAndConfigManTests_WithoutRefactor\ConfigurationManagerTests.cs" />
+    <Compile Include="Tests\LogAnalyzerTests.cs" />
+    <Compile Include="Tests\LogAnalyzerTestsWithStubs.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stubs\TestableLogAnalyzer.cs" />
+    <Compile Include="Stubs\VirtualCalculationTestableLogAnalyzer.cs" />
+    <Compile Include="Tests\LogAnalyzerTests_WithMocks.cs" />
+    <Compile Include="Tests\LogAnalAndConfigManTests_WithoutRefactor\LogAnalyzerTests.cs" />
+    <Compile Include="Tests\StringParser\FillInTheBlankStringParserTests\StandardStringParser_FillInTheBlanks.cs" />
+    <Compile Include="Tests\StringParser\GenericstringParserTests\StandardStringParserGenericTests.cs" />
+    <Compile Include="Tests\StringParser\OrganizedStringParser\StringParserTests_Organized.cs" />
+    <Compile Include="Tests\StringParser\OrganizedStringParser\XmlStringParserTests.cs" />
+    <Compile Include="Tests\StringParser\UnorganizedStringParser\StringParserTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AOUT.CH11\AOUT.CH11.csproj">
+      <Project>{09306e7d-4270-4457-99b8-1c7a7ef0186a}</Project>
+      <Name>AOUT.CH11</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AOUT.CH4.LogAn\AOUT.CH4.LogAn.csproj">
+      <Project>{e89ebb85-11c4-43d3-8164-e63d75058e44}</Project>
+      <Name>AOUT.CH4.LogAn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AOUT.CH5.LogAn\AOUT.CH5.LogAn.csproj">
+      <Project>{9667a77c-c559-4c99-94c7-ba1bcf0e181c}</Project>
+      <Name>AOUT.CH5.LogAn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AOUT.CH7.LogAn\AOUT.CH7.LogAn.csproj">
+      <Project>{397131ba-456f-4099-98ea-f040a5919649}</Project>
+      <Name>AOUT.CH7.LogAn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AOUT.LogAn\AOUT.CH2.LogAn.csproj">
+      <Project>{3be2e29f-b709-4d58-b790-c8cf187cac31}</Project>
+      <Name>AOUT.CH2.LogAn</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
